@@ -119,3 +119,18 @@ h2.text-center{
   background: #125688;
   color: white;
 }
+
+
+/* Query para teléfonos pequeños */
+@media only screen and (max-width: 700px) {
+  img {
+    width: 400px;
+  }
+  #accordion-video {
+    width: 400px;
+  }
+
+  .section-4-text{
+    width: 400px;
+  }
+}
